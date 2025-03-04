@@ -1,8 +1,8 @@
 # Source: https://github.com/mirzaim/cuda-devcontainer/blob/main/.devcontainer/Dockerfile
 
-ARG VARIANT="ubuntu20.04" 
-ARG CUDA_VERSION="11.0.3"
-FROM nvidia/cuda:${CUDA_VERSION}-devel-${VARIANT}
+ARG VARIANT="ubuntu24.04" 
+ARG CUDA_VERSION="12.8.0"
+FROM nvidia/cuda:${CUDA_VERSION}-cudnn-devel-${VARIANT}
 
 
 # [Optional] Uncomment this section to install additional OS packages.

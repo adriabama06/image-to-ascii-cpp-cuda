@@ -6,7 +6,7 @@
 	"name": "NVIDIA_CUDA",
 	"build": {
 		"dockerfile": "Dockerfile",
-		"args": { "VARIANT": "ubuntu20.04", "CUDA_VERSION": "11.6.0" }
+		"args": { "VARIANT": "ubuntu24.04", "CUDA_VERSION": "12.8.0" }
 	},
 
 	"runArgs": [
